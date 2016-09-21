@@ -1,6 +1,10 @@
 # gojob
 Resque jobs triggering package
 
+## Motivation
+
+Following SRP this package provides only 1 function - triggering jobs in resque. It allows you to reduce amount of dependecies and makes that simpler than goworker package.
+
 Use it to trigger job from any golang application:
 
 ```
